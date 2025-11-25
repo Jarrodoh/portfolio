@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 font-body;
+}
+
+/* subtle grid background */
+.bg-grid {
+  background-image: linear-gradient(
+      rgba(148, 163, 184, 0.08) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(148, 163, 184, 0.08) 1px,
+      transparent 1px
+    );
+  background-size: 40px 40px;
+}
+
+/* card glass effect */
+.card-glass {
+  @apply bg-slate-900/60 border border-slate-700/60 backdrop-blur-xl shadow-xl;
+}
+
+.perspective-1200 {
+  perspective: 1200px;
+  perspective-origin: 50% 25%;
+}
+
+.metal-ball {
+  position: absolute;
+  bottom: 0;
+  border-radius: 9999px;
+  background: radial-gradient(circle at 30% 30%, #f8fafc, #94a3b8 45%, #0f172a 100%);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  box-shadow: 0 30px 60px rgba(14, 116, 144, 0.35);
+  filter: drop-shadow(0 10px 25px rgba(8, 47, 73, 0.35));
+  pointer-events: none;
+}
