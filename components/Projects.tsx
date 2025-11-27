@@ -30,8 +30,12 @@ export default function Projects() {
                   {project.period} · {project.stack}
                 </p>
               </div>
-              <span className="rounded-full bg-sky-500/10 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.18em] text-sky-300">
-                BUILD
+              <span className={`rounded-full px-3 py-1 text-[10px] font-medium uppercase tracking-[0.18em] ${
+                project.status === "In Development" 
+                  ? "bg-amber-500/10 text-amber-300" 
+                  : "bg-sky-500/10 text-sky-300"
+              }`}>
+                {project.status === "In Development" ? "IN DEV" : "BUILD"}
               </span>
             </div>
             <p className="mt-3 text-sm text-slate-300">{project.tagline}</p>
