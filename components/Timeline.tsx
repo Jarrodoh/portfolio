@@ -2,19 +2,24 @@ import SectionHeader from "./SectionHeader";
 
 const items = [
   {
+    year: "2020-2023",
+    title: "Hougang Secondary School - O Levels",
+    body: "Completed O Level education. Earned Edusave Good Progress Award and Edusave Certificate of Academic Achievement (Top 25%) in 2022. Participated in Singapore Math Kangaroo Contest 2023."
+  },
+  {
+    year: "2022-2024",
+    title: "Early Learning & Work Experience",
+    body: "Completed Nanyang Polytechnic Computation Thinking course. Worked at Orchid Country Club (2023-2024) as Banquet/Event set-up staff, gaining customer service and event logistics experience."
+  },
+  {
     year: "2024",
-    title: "Started Diploma in Applied AI",
-    body: "Joined Temasek Polytechnic’s Applied AI course and began exploring ML, cloud and automation."
+    title: "Started Temasek Polytechnic & KNIME Certification",
+    body: "Enrolled in Diploma in Applied Artificial Intelligence at Temasek Polytechnic. Earned KNIME Analytics Platform L1 Basic Proficiency certification for data preparation, analysis and visualization workflows (June 2024)."
   },
   {
     year: "2025",
-    title: "First AI & automation projects",
-    body: "Built plant recognition, earthquake prediction and UiPath automation projects as part of coursework and personal learning."
-  },
-  {
-    year: "Next",
-    title: "AI Engineering Intern",
-    body: "Looking to join an AI / ML engineering team where I can contribute to model pipelines, deployment and experimentation."
+    title: "Hackathons, Projects & Academic Excellence",
+    body: "Participated in BuildingBlocs March Conference Hackathon and PolyFinTech100 API Hackathon (built Peerfolio - AI-driven portfolio diversifier). Earned Edusave Academic Achievement Award (Top 25%). Built AI/ML projects: AWS orchid recognition, earthquake predictor, UiPath automation bots."
   }
 ];
 
