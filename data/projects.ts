@@ -9,6 +9,20 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: "Agentic AI Video Detective",
+    tagline: "Intelligent video analysis system that reconstructs timelines and causality.",
+    period: "2025 · Personal Project",
+    stack: "Streamlit, OpenCV, MoviePy, OpenRouter API, NVIDIA Nemotron VL",
+    bullets: [
+      "Built an autonomous AI agent that analyzes videos frame-by-frame to understand events, actors, and objects.",
+      "Implemented temporal reasoning to connect frames and build coherent timelines with cause-effect relationships.",
+      "Integrated vision-language models via OpenRouter API for intelligent frame interpretation.",
+      "Deployed multi-page Streamlit dashboard with video upload, analysis pipeline, and interactive results visualization.",
+      "Engineered frame extraction at 0.5 FPS with compression to optimize API calls while maintaining analysis quality."
+    ],
+    link: "https://agentic-ai-video-detective-azqe2wfskjrac5jdexj5y8.streamlit.app/"
+  },
+  {
     title: "AI Orchid Plant Discovery Website",
     tagline: "Computer vision on AWS Rekognition for orchid species.",
     period: "2025 · Temasek Polytechnic",
