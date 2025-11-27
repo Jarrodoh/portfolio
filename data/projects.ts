@@ -5,7 +5,6 @@ export type Project = {
   stack: string;
   bullets: string[];
   link?: string;
-  status?: string;
 };
 
 export const projects: Project[] = [
@@ -19,11 +18,9 @@ export const projects: Project[] = [
       "Implemented temporal reasoning to connect frames and build coherent timelines with cause-effect relationships.",
       "Integrated vision-language models via OpenRouter API for intelligent frame interpretation.",
       "Deployed multi-page Streamlit dashboard with video upload, analysis pipeline, and interactive results visualization.",
-      "Engineered frame extraction at 0.5 FPS with compression to optimize API calls while maintaining analysis quality.",
-      "🚀 In Development: Expanding into multi-modal Agentic Video Intelligence Platform with audio/text analysis, specialized modes (Security, Lecture, Content Creator, Aviation), API backend, async processing, and persistent storage for real-world deployment."
+      "Engineered frame extraction at 0.5 FPS with compression to optimize API calls while maintaining analysis quality."
     ],
-    link: "https://agentic-ai-video-detective-azqe2wfskjrac5jdexj5y8.streamlit.app/",
-    status: "In Development"
+    link: "https://agentic-ai-video-detective-azqe2wfskjrac5jdexj5y8.streamlit.app/"
   },
   {
     title: "AI Orchid Plant Discovery Website",
