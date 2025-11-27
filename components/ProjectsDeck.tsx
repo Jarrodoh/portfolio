@@ -66,12 +66,8 @@ export default function ProjectsDeck({ items }: Props) {
                   </h2>
                   <p className="mt-1 text-xs text-slate-400">{project.stack}</p>
                 </div>
-                <span className={`rounded-full px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.18em] ${
-                  project.status === "In Development"
-                    ? "bg-amber-900/80 text-amber-200"
-                    : "bg-slate-900/80 text-slate-200"
-                }`}>
-                  {project.status === "In Development" ? "In Dev" : "Build"}
+                <span className="rounded-full bg-slate-900/80 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.18em] text-slate-200">
+                  Build
                 </span>
               </div>
               <p className="relative mt-4 text-sm text-slate-200">
@@ -142,12 +138,8 @@ export default function ProjectsDeck({ items }: Props) {
                   </h3>
                   <p className="mt-2 text-sm text-slate-300">{activeProject.stack}</p>
                 </div>
-                <span className={`rounded-full px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.28em] ${
-                  activeProject.status === "In Development"
-                    ? "bg-amber-900/80 text-amber-100"
-                    : "bg-slate-900/80 text-slate-100"
-                }`}>
-                  {activeProject.status === "In Development" ? "In Dev" : "Build"}
+                <span className="rounded-full bg-slate-900/80 px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.28em] text-slate-100">
+                  Build
                 </span>
               </div>
               <p className="mt-6 text-base text-slate-200">
@@ -184,12 +176,8 @@ export default function ProjectsDeck({ items }: Props) {
                   {project.period} · {project.stack}
                 </p>
               </div>
-              <span className={`rounded-full px-3 py-1 text-[10px] font-medium uppercase tracking-[0.18em] ${
-                project.status === "In Development"
-                  ? "bg-amber-500/10 text-amber-300"
-                  : "bg-sky-500/10 text-sky-300"
-              }`}>
-                {project.status === "In Development" ? "IN DEV" : "BUILD"}
+              <span className="rounded-full bg-sky-500/10 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.18em] text-sky-300">
+                BUILD
               </span>
             </div>
             <p className="mt-3 text-sm text-slate-300">{project.tagline}</p>
